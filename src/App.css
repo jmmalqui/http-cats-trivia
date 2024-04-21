@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  --website-color: #f4fbfc;
+  --text-color: #071619;
+  --footer-color: #000000;
+  --primary-color: #66de8a;
+  --secondary-color: #e29697;
+  --accent-color: #000000;
+  --font-header: "Margarine";
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}

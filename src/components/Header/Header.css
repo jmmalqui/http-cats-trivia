@@ -1,0 +1,36 @@
+.header {
+  background-color: #fafcfb;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #dde2df;
+}
+
+.title {
+  color: #071619;
+  flex-grow: 1;
+  align-items: center;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 20px;
+}
+
+.button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #6f7771;
+  background-color: #fafcfb;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 100ms;
+}
+
+.button:hover {
+  background-color: #faf2ff;
+  cursor: pointer;
+}
